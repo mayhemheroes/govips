@@ -22,6 +22,6 @@ func main() {
 	err = image1.AutoRotate()
 	checkError(err)
 
-	ep := vips.NewDefaultJPEGExportParams()
-	image1.Export(ep)
+	//ep := vips.NewDefaultJPEGExportParams()
+	//image1.Export(ep)
 }
