@@ -33,6 +33,12 @@ RUN wget https://github.com/strongcourage/fuzzing-corpus/blob/master/jpg/mozilla
 RUN wget https://github.com/strongcourage/fuzzing-corpus/blob/master/jpg/mozilla/RabbitMech.jpg
 RUN wget https://github.com/strongcourage/fuzzing-corpus/blob/master/jpg/mozilla/baboon.jpg
 RUN wget https://github.com/strongcourage/fuzzing-corpus/blob/master/jpg/mozilla/custom.jpg 
+RUN wget https://github.com/strongcourage/fuzzing-corpus/blob/master/jpg/mozilla/ymck-jpg.jpeg
+RUN wget https://github.com/strongcourage/fuzzing-corpus/blob/master/jpg/mozilla/zweifelhaft.jpg
+RUN wget https://github.com/strongcourage/fuzzing-corpus/blob/master/jpg/mozilla/weaponizedhamster.jpg
+RUN wget https://github.com/strongcourage/fuzzing-corpus/blob/master/jpg/mozilla/wall-e.jpg
+RUN wget https://github.com/strongcourage/fuzzing-corpus/blob/master/jpg/mozilla/x31.jpg
+RUN wget https://github.com/strongcourage/fuzzing-corpus/blob/master/jpg/mozilla/zen.jpg
 RUN mv *.jpg ./testsuite/
 
 #FROM golang:1.19.1-buster
