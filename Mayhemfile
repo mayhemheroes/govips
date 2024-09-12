@@ -1,0 +1,6 @@
+project: govips
+target: govips
+
+cmds:
+  - cmd: /fuzz_newimage @@
+    env: {}
